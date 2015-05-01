@@ -1,3 +1,8 @@
+# Eclipse configuration
+* project: runtime
+* main class: com.databrigade.RestService
+* arguments: "server /path/to/databrigade-rest/config/config.yml"
+
 # Swagger docs
 http://localhost:8080/swagger
 

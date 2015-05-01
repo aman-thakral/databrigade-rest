@@ -2,10 +2,10 @@
 http://localhost:8080/swagger
 
 # CURL examples
-curl localhost:8080/hello-world?name=aman
-curl localhost:8080/hello-world/aman
-curl -XPOST -H "content-type:application/x-www-form-urlencoded" -d "id=0&content=abc" localhost:8080/hello-world/form
-curl -XPOST -d '{"id":10,"content":"aman"}' -H "Content-Type: application/json" localhost:8080/hello-world/post
+* curl localhost:8080/hello-world?name=aman
+* curl localhost:8080/hello-world/aman
+* curl -XPOST -H "content-type:application/x-www-form-urlencoded" -d "id=0&content=abc" localhost:8080/hello-world/form
+* curl -XPOST -d '{"id":10,"content":"aman"}' -H "Content-Type: application/json" localhost:8080/hello-world/post
 
 # Health Check
 http://localhost:8081

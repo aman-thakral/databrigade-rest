@@ -2,4 +2,6 @@ template: Hello, %s!
 defaultName: Stranger
 
 swagger:
-  resourcePackage: com.databrigade
+  resourcePackage: rest
+
+dbConfigFile: /Users/aman/src/db/config/CorpusDatabase.xml
